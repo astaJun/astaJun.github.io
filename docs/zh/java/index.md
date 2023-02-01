@@ -1,16 +1,9 @@
-# markdown预览
+# Markdown 预览
 ## Link
 [Home](/) <!-- sends the user to the root index.md -->
 
 [foo](/foo/) <!-- sends the user to index.html of directory foo -->
 
-[foo heading](./#heading) <!-- anchors user to a heading in the foo index file -->
-
-[bar - three](../bar/three) <!-- you can omit extension -->
-
-[bar - three](../bar/three.md) <!-- you can append .md -->
-
-[bar - four](../bar/four.html) <!-- or you can append .html -->
 
 ## Badge
 ### Title <Badge type="info" text="default" />
