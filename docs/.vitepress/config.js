@@ -1,6 +1,6 @@
 import javaSiderbar from './sidebar/java'
 export default {
-    base: 'test',
+    base: '/test/',
     lang: 'zh-CN',
     title: 'VitePress',
     description: 'Just playing around.',
