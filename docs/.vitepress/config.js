@@ -1,4 +1,6 @@
 import javaSiderbar from './sidebar/java'
+
+
 export default {
     base: '/docs/',
     lang: 'zh-CN',
@@ -19,8 +21,8 @@ export default {
             text: '在GitHub上编辑此页面'
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-            { icon: 'twitter', link: '...' },
+            {icon: 'github', link: 'https://github.com/vuejs/vitepress'},
+            {icon: 'twitter', link: '...'},
             // You can also add custom icons by passing SVG as string:
             {
                 icon: {
@@ -34,18 +36,18 @@ export default {
             {
                 text: '日常',
                 items: [
-                    { text: 'Java', link: '/zh/java/',activeMatch: '/zh/java/' },
-                    { text: 'Vue', link: '/zh/vue/',activeMatch: '/zh/vue/' },
-                    { text: '爬虫', link: '/zh/vue/',activeMatch: '/config/' },
-                    { text: '跨平台客户端开发', link: '/zh/vue/',activeMatch: '/config/' },
+                    {text: 'Java', link: '/zh/java/', activeMatch: '/zh/java/'},
+                    {text: 'Vue', link: '/zh/vue/', activeMatch: '/zh/vue/'},
+                    {text: '爬虫', link: '/zh/vue/', activeMatch: '/config/'},
+                    {text: '跨平台客户端开发', link: '/zh/vue/', activeMatch: '/config/'},
                 ]
             },
             {
                 text: '资源',
                 items: [
-                    { text: '设计', link: '/item-1' },
-                    { text: '大前端', link: '/item-2' },
-                    { text: 'Java', link: '/item-3' },
+                    {text: '设计', link: '/item-1'},
+                    {text: '大前端', link: '/item-2'},
+                    {text: 'Java', link: '/item-3'},
                 ]
             },
             {
@@ -55,10 +57,10 @@ export default {
             {
                 text: '专栏',
                 items: [
-                    { text: '系统架构', link: '/item-1' },
-                    { text: '网络安全', link: '/item-2' },
-                    { text: '数据处理', link: '/item-2' },
-                    { text: '新风向', link: '/item-2' },
+                    {text: '系统架构', link: '/item-1'},
+                    {text: '网络安全', link: '/item-2'},
+                    {text: '数据处理', link: '/item-2'},
+                    {text: '新风向', link: '/item-2'},
                 ]
             },
         ],
@@ -74,13 +76,13 @@ export default {
                     text: 'Vue',
                     collapsed: true,
                     items: [
-                        { text: 'Vue Router', link: '/zh/vue/vue_router' },
-                        { text: 'Vue CLI', link: '/zh/vue/vue_cli' },
-                        { text: 'Vite', link: '/zh/vue/vite' },
-                        { text: 'Pinia', link: '/zh/vue/pinia' },
-                        { text: 'Vue Press', link: '/zh/vue/vue_press' },
-                        { text: 'Vite Press', link: '/zh/vue/vite_press' },
-                        { text: 'Vue Use', link: '/zh/vue/vue_use' }
+                        {text: 'Vue Router', link: '/zh/vue/vue_router'},
+                        {text: 'Vue CLI', link: '/zh/vue/vue_cli'},
+                        {text: 'Vite', link: '/zh/vue/vite'},
+                        {text: 'Pinia', link: '/zh/vue/pinia'},
+                        {text: 'Vue Press', link: '/zh/vue/vue_press'},
+                        {text: 'Vite Press', link: '/zh/vue/vite_press'},
+                        {text: 'Vue Use', link: '/zh/vue/vue_use'}
                     ]
                 }
             ]
@@ -143,5 +145,4 @@ export default {
         },
         lastUpdatedText: '最后更新'
     }
-
 }
