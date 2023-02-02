@@ -1,6 +1,6 @@
 import javaSiderbar from './sidebar/java'
 export default {
-    base: '/test/',
+    base: '/docs/',
     lang: 'zh-CN',
     title: 'VitePress',
     description: 'Just playing around.',
@@ -15,7 +15,7 @@ export default {
             copyright: 'Copyright © 2019-present Jun'
         },
         editLink: {
-            pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+            pattern: 'https://github.com/astaJun/docs/blob/main/docs/:path',
             text: '在GitHub上编辑此页面'
         },
         socialLinks: [
