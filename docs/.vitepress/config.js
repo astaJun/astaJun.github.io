@@ -8,14 +8,14 @@ export default {
     ignoreDeadLinks: true,
     lastUpdated: true,
     themeConfig: {
-        siteTitle: 'Hello World',
+        siteTitle: 'Jun Space',
         footer: {
             message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2019-present Evan You'
+            copyright: 'Copyright © 2019-present Jun'
         },
         editLink: {
             pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-            text: 'Edit this page on GitHub'
+            text: '在GitHub上编辑此页面'
         },
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
