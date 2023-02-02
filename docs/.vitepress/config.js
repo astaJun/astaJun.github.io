@@ -9,6 +9,7 @@ export default {
     lastUpdated: true,
     themeConfig: {
         siteTitle: 'Jun Space',
+        i18nRouting: true,
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2019-present Jun'
