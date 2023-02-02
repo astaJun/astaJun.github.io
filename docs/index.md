@@ -11,7 +11,7 @@ hero:
       link: /zh/introduce
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/astaJun/docs
 
 features:
   - icon: 🤣
