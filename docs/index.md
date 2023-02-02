@@ -24,4 +24,3 @@ features:
     title: Another cool feature
     details: Lorem ipsum...
 ---
-# test
