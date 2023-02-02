@@ -32,7 +32,7 @@ export default {
         outlineTitle: '此页目录',
         nav: [
             {
-                text: '日记',
+                text: '日常',
                 items: [
                     { text: 'Java', link: '/zh/java/',activeMatch: '/zh/java/' },
                     { text: 'Vue', link: '/zh/vue/',activeMatch: '/zh/vue/' },
@@ -41,13 +41,26 @@ export default {
                 ]
             },
             {
-                text: '资源收录',
+                text: '资源',
                 items: [
-                    { text: 'Item A', link: '/item-1' },
-                    { text: 'Item B', link: '/item-2' },
-                    { text: 'Item C', link: '/item-3' }
+                    { text: '设计', link: '/item-1' },
+                    { text: '大前端', link: '/item-2' },
+                    { text: 'Java', link: '/item-3' },
                 ]
-            }
+            },
+            {
+                text: '问题记录',
+                link: '/item-3'
+            },
+            {
+                text: '专栏',
+                items: [
+                    { text: '系统架构', link: '/item-1' },
+                    { text: '网络安全', link: '/item-2' },
+                    { text: '数据处理', link: '/item-2' },
+                    { text: '新风向', link: '/item-2' },
+                ]
+            },
         ],
         sidebar: {
             // This sidebar gets displayed when a user
