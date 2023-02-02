@@ -61,9 +61,13 @@ export default {
                     text: 'Vue',
                     collapsed: true,
                     items: [
-                        { text: 'Index', link: '/config/' },
-                        { text: 'Three', link: '/config/three' },
-                        { text: 'Four', link: '/config/four' }
+                        { text: 'Vue Router', link: '/zh/vue/vue_router' },
+                        { text: 'Vue CLI', link: '/zh/vue/vue_cli' },
+                        { text: 'Vite', link: '/zh/vue/vite' },
+                        { text: 'Pinia', link: '/zh/vue/pinia' },
+                        { text: 'Vue Press', link: '/zh/vue/vue_press' },
+                        { text: 'Vite Press', link: '/zh/vue/vite_press' },
+                        { text: 'Vue Use', link: '/zh/vue/vue_use' }
                     ]
                 }
             ]
