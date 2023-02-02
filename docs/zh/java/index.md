@@ -46,12 +46,6 @@ console.log('Hello, VitePress!')
 :::
 
 ## 代码块
-```js
-export default {
-  name: 'MyComponent',
-  // ...
-}
-```
 
 ```html
 <ul>
@@ -86,6 +80,7 @@ export default { // Highlighted
 ```
 
 ```js
+
 export default {
   data () {
     return {
@@ -93,6 +88,7 @@ export default {
     }
   }
 }
+
 ```
 
 ```js
