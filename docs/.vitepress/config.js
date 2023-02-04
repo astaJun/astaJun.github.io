@@ -97,6 +97,7 @@ export default {
                     collapsed: true,
                     items: [
                         {text: 'Vue Router', link: '/zh/vue/vue_router'},
+                        {text: 'Vue 3', link: '/zh/vue/vue3'},
                         {text: 'Vue CLI', link: '/zh/vue/vue_cli'},
                         {text: 'Vite', link: '/zh/vue/vite'},
                         {text: 'Pinia', link: '/zh/vue/pinia'},
