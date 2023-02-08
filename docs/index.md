@@ -6,7 +6,7 @@ hero:
   text: Vite & Vue powered static site generator.
   tagline: 不积硅步无以至千里
   image:
-    src: heroImg.png
+    src: ./heroImg.png
     alt: VitePress
   actions:
     - theme: brand
