@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 个人日记
+  name: 日记记录
   text: Vite & Vue powered static site generator.
   tagline: 不积硅步无以至千里
   image:
@@ -18,13 +18,13 @@ hero:
 
 features:
   - icon: 🤣
-    title: title
+    title: Java
     details: details
   - icon: 🦄
-    title: Another cool feature
+    title: Vue
     details: Lorem ipsum...
   - icon: 🥳
-    title: Another cool feature
+    title: Flutter
     details: Lorem ipsum...
 ---
 

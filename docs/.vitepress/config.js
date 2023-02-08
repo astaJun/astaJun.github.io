@@ -4,7 +4,7 @@ import javaSiderbar from './sidebar/java'
 export default {
     base: '/docs/',
     lang: 'zh-CN',
-    title: 'VitePress',
+    title: 'Jun Space',
     description: 'Just playing around.',
     cleanUrls: true,
     ignoreDeadLinks: true,
@@ -61,20 +61,6 @@ export default {
                     {text: '网络安全', link: '/item-2'},
                     {text: '数据处理', link: '/item-2'},
                     {text: '新风向', link: '/item-2'},
-                ]
-            },
-            {
-                text: '文档',
-                items: [
-                    {text: 'ES', link: '/zh/文档/ES文档'},
-                    {text: 'HR1', link: '/zh/文档/HR文档1'},
-                    {text: 'HR2', link: '/zh/文档/HR文档2'},
-                    {text: 'HR3', link: '/zh/文档/HR文档3'},
-                    {text: 'HR4', link: '/zh/文档/HR文档4'},
-                    {text: 'JavaSE', link: '/zh/文档/JavaSE文档'},
-                    {text: 'JVM', link: '/zh/文档/JVM文档'},
-                    {text: 'Redis', link: '/zh/文档/Redis文档'},
-                    {text: 'Spring', link: '/zh/文档/Spring文档'},
                 ]
             },
             {
