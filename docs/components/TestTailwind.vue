@@ -1,6 +1,8 @@
 <template>
-  <h4 className="text-3xl font-bold text-red-500 underline">
-    Hello world!
-  </h4>
+  <div class="p-5 bg-green">hello</div>
 </template>
+<script setup>
+
+</script>
+
 

@@ -1,6 +1,5 @@
 import javaSiderbar from './sidebar/java'
 
-
 export default {
     base: '/docs/',
     lang: 'zh-CN',
@@ -9,6 +8,18 @@ export default {
     cleanUrls: true,
     ignoreDeadLinks: true,
     lastUpdated: true,
+    markdown: {
+        // options for @mdit-vue/plugin-toc
+        // https://github.com/mdit-vue/mdit-vue/tree/main/packages/plugin-toc#options
+        toc: { level: [1, 2] },
+
+        config: (md) => {
+            // use more markdown-it plugins!
+            md.use(require('markdown-it-footnote'));
+            md.use(require('markdown-it-task-lists'));
+
+        }
+    },
     themeConfig: {
         siteTitle: 'Jun Space',
         i18nRouting: true,
@@ -23,13 +34,6 @@ export default {
         socialLinks: [
             {icon: 'github', link: 'https://github.com/vuejs/vitepress'},
             {icon: 'twitter', link: '...'},
-            // You can also add custom icons by passing SVG as string:
-            {
-                icon: {
-                    svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>'
-                },
-                link: '...'
-            }
         ],
         outlineTitle: '此页目录',
         nav: [
